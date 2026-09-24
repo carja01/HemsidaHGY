@@ -1,0 +1,25 @@
+header{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+}
+div{
+    display:flex;
+}
+
+h5{
+    font-size : 500%;
+    color:aliceblue;
+}
+.searchbar{
+    display:flex;
+    background-color: aliceblue;
+
+}
+.main{
+    margin:10%;
+    bottom:auto;
+}
+.margin{
+color:aliceblue;
+}
