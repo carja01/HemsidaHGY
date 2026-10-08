@@ -1,12 +1,13 @@
 header{
     display: flex;
+    padding:0.05%;
 }
 div{
     display:flex;
 }
 
 div.searchbar{
-    padding:2%;
+    padding:2.105%;
     padding-left:25%;
     padding-right:10%;
 }
@@ -25,14 +26,15 @@ rgba(229, 242, 244);
 .inreBox{
 background-color: white;
 padding-top:0.8%;
-padding-left: 5% ;
-padding-right: 5% ;
+padding-left: 6% ;
+padding-right: 6% ;
 padding-bottom: 130%;
 
 }
 
 .innerstaBox{
     justify-content: center;
+    
 }
 .main{
     display: flex;
@@ -49,12 +51,15 @@ rgba(229, 242, 244);
 .bild1{
     scale:61%;
     margin-left:68%;
-    margin-right:0%;
+    margin-right:-18%;
 }
 .bild2{
-    scale:70%;
+    scale:77%;
     margin-left:0%;
+    margin-right: 310%;
 }
 .snedsträck{
-    margin-right:10%;
+    margin-right:-30%;
+    scale: 93%;
+    margin-bottom: 2%;
 }
