@@ -8,8 +8,7 @@ div{
 
 div.searchbar{
     padding:2.105%;
-    padding-left:25%;
-    padding-right:10%;
+    width:100%;
 }
 
 .searchbar{
@@ -17,25 +16,21 @@ div.searchbar{
 rgba(229, 242, 244);
 }
 .yttreBox{
-    padding-left:16%;
+    padding-left:13.2%;
     background-color: rgb(245, 243, 243);
-    padding-bottom:50%;
+  
     padding-right: 28.2%;
 }
 
 .inreBox{
 background-color: white;
-padding-top:0.8%;
+padding-top:0.7%;
 padding-left: 6% ;
 padding-right: 6% ;
-padding-bottom: 130%;
+
 
 }
 
-.innerstaBox{
-    justify-content: center;
-    
-}
 .main{
     display: flex;
 }
@@ -62,4 +57,22 @@ rgba(229, 242, 244);
     margin-right:-30%;
     scale: 93%;
     margin-bottom: 2%;
+}
+input{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+body{
+    margin: 0;
+}
+div.textruta1{
+    display: block;
+    
+}
+div.textruta2{
+    display: block;
+}
+.knappar{
+
 }
