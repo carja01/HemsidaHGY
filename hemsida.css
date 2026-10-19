@@ -15,19 +15,18 @@ div.searchbar{
 rgba(229, 242, 244);
 }
 .yttreBox{
-    padding-left:13.2%;
+    padding-left:14%;
     background-color: rgb(245, 243, 243);
-  
-    padding-right: 28.2%;
+    padding-right:19%;
 }
 
 .inreBox{
 background-color: white;
 padding-top:0.7%;
-padding-left: 6% ;
-padding-right: 6% ;
+padding-left: 5% ;
+padding-right: 5% ;
 flex-direction: column;
-padding-bottom: 100%;
+padding-bottom: 5%;
 
 }
 
@@ -75,18 +74,96 @@ div.textruta2{
 }
 .text2{
 flex-direction: column;  
+padding-top:6%;
 }
 .knappar{
     color: rgb(253, 253, 253);
     border-top: 4px solid rgba(0, 130, 150);
-    padding-right:15%;
-    margin-top:13%;
-    padding-left:0;
-    
+    padding-right:8.5%;
+    margin-top:10.25%;
+    width:50%;
     
 }
 li{
    border-bottom: 1px solid rgba(230, 231, 232);  
    padding-top: 5%;
    padding-bottom: 5%;
+   width:190%;
+   padding-left:7%;
+   margin-left:-25%;
+}
+.sökbar{
+   
+}
+.button{
+   margin-left: 5%;
+   color:rgb(255, 255, 255);
+   background-color: rgba(0, 130, 150);
+   font-family: Arial, Helvetica, sans-serif;
+   width:500px;
+   
+   border:none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+    gap:10%;
+}
+h4{
+    margin:0;
+    font-size:120%;
+    font-style:;
+}
+li:hover{
+    background-color:rgba(229, 242, 244);
+}
+.innerstabilden{
+height: 400px ;
+width: 1265px;
+}
+
+h1{
+    scale:140%;
+    margin:0%;
+    padding-left:14%;
+}
+h3{
+    scale:190%;
+    padding-left:23.5%;
+}
+.färgtext{
+    flex-direction: column;
+    color:rgba(0, 130, 150);
+    text-decoration: none;
+}
+.färg1:hover{
+text-decoration:underline;}
+.färg2:hover{
+text-decoration:underline;
+}
+.bottombar{
+background-color: rgba(0, 130, 150);
+}
+div.bottombar{
+    padding-bottom:0.8%;
+    padding-top:1%;
+    padding-left:13%;
+}
+.kontaktruta{
+    height:1000px;
+    padding-left:14%;
+    background-color: rgb(245, 243, 243);
+    padding-right:19%;
+
+
+}
+.inrekontakt{
+padding-top:0.7%;
+padding-left: 5% ;
+padding-right: 5% ;
+flex-direction: column;
+padding-bottom: 5%;
 }
