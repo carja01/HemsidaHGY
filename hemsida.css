@@ -8,7 +8,6 @@ div{
 
 div.searchbar{
     padding:2.105%;
-    width:100%;
 }
 
 .searchbar{
@@ -27,7 +26,8 @@ background-color: white;
 padding-top:0.7%;
 padding-left: 6% ;
 padding-right: 6% ;
-
+flex-direction: column;
+padding-bottom: 100%;
 
 }
 
@@ -73,6 +73,20 @@ div.textruta1{
 div.textruta2{
     display: block;
 }
+.text2{
+flex-direction: column;  
+}
 .knappar{
-
+    color: rgb(253, 253, 253);
+    border-top: 4px solid rgba(0, 130, 150);
+    padding-right:15%;
+    margin-top:13%;
+    padding-left:0;
+    
+    
+}
+li{
+   border-bottom: 1px solid rgba(230, 231, 232);  
+   padding-top: 5%;
+   padding-bottom: 5%;
 }
