@@ -1,13 +1,13 @@
 header{
     display: flex;
-    padding:0.05%;
+    padding:0.18%;
 }
 div{
     display:flex;
 }
 
 div.searchbar{
-    padding:2.105%;
+    padding:1.22%;
 }
 
 .searchbar{
@@ -78,14 +78,36 @@ li{
    margin-left:-25%;
 }
 .sökbar{
-   
+   margin-left:0%;
+   width:800px;
+   font-size:19px;
+   height:50px;
+
+   outline:none;
+   border-right: 2px solid rgba(147, 149, 152);
+   border-top: 2px solid rgba(147, 149, 152);
+   border-bottom: 2px solid rgba(147, 149, 152);
+   border-left:none;
 }
+
+.lupa{
+border-right: none;
+   border-top: 2px solid rgba(147, 149, 152);
+   border-bottom: 2px solid rgba(147, 149, 152);
+   border-left:2px solid rgba(147, 149, 152);
+}
+
+.helasökbar{
+    margin-left:24.3%;
+}
+
 .button{
-   margin-left: 5%;
+   margin-left: 0.5%;
    color:rgb(255, 255, 255);
    background-color: rgba(0, 130, 150);
    font-family: Arial, Helvetica, sans-serif;
-   width:500px;
+   width:4.25%;
+   font-size:18px;
    
    border:none;
 }
@@ -137,18 +159,55 @@ div.bottombar{
     padding-top:1%;
     padding-left:13%;
 }
-.kontaktruta{
-    height:1000px;
-    padding-left:14%;
-    background-color: rgb(245, 243, 243);
-    padding-right:19%;
 
-
-}
 .inrekontakt{
 padding-top:0.7%;
 padding-left: 5% ;
 padding-right: 5% ;
 flex-direction: column;
 padding-bottom: 5%;
+}
+.bild1{
+scale:65%;
+padding-left:21%;
+}
+.bild2{
+    scale:78%;
+    margin-top:0.3%;
+}
+.bild4{
+    scale:97%;
+    margin-bottom:-6px;
+}
+.snedsträck{
+    scale:70%;
+margin-left:-6%;
+margin-right:-5.5%;
+}
+.sträckmellanlyssna{
+    scale:80%;
+}
+.ikoner{
+    margin-left:79%;
+}
+body{
+    overflow-x:hidden;
+}
+
+.kontaktruta{
+    display: flex;
+    flex-direction: column;
+    height:1000px;
+    padding-left:14%;
+    background-color: rgb(245, 243, 243);
+    padding-right:19%;
+}
+
+.bak{
+    flex-direction: column;
+    color:white;
+    
+}
+.hgykontakt{
+    padding-left:20%;
 }
