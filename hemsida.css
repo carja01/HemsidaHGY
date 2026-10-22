@@ -7,7 +7,7 @@ div{
 }
 
 div.searchbar{
-    padding:1.22%;
+    padding:1.16%;
 }
 
 .searchbar{
@@ -24,10 +24,10 @@ rgba(229, 242, 244);
 background-color: white;
 padding-top:0.7%;
 padding-left: 5% ;
-padding-right: 5% ;
+padding-right: 4.45% ;
 flex-direction: column;
 padding-bottom: 5%;
-
+margin-left: -0.8%;
 }
 
 .main{
@@ -65,7 +65,7 @@ padding-top:6%;
     color: rgb(253, 253, 253);
     border-top: 4px solid rgba(0, 130, 150);
     padding-right:8.5%;
-    margin-top:10.25%;
+    margin-top:9%;
     width:50%;
     
 }
@@ -73,9 +73,9 @@ li{
    border-bottom: 1px solid rgba(230, 231, 232);  
    padding-top: 5%;
    padding-bottom: 5%;
-   width:190%;
-   padding-left:7%;
-   margin-left:-25%;
+   width:171%;
+   padding-left:10%;
+   margin-left:-22%;
 }
 .sökbar{
    margin-left:0%;
@@ -133,6 +133,7 @@ h4{
     margin:0;
     font-size:120%;
     font-style:;
+
 }
 li:hover{
     background-color:rgba(229, 242, 244);
@@ -208,10 +209,11 @@ body{
 .kontaktruta{
     display: flex;
     flex-direction: column;
-    height:1000px;
     padding-left:14%;
     background-color: rgb(245, 243, 243);
     padding-right:19%;
+    padding-top:3%;
+    padding-bottom:1.0%;
 }
 
 .bak{
@@ -220,5 +222,77 @@ body{
     
 }
 .hgykontakt{
-    padding-left:20%;
+    padding-left:25.8%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom:7%;
+    padding-top:5.5%;
+    margin-right:-9.65%;
+}
+.nummer{
+border-bottom: 1px solid rgba(230, 231, 232);  
+   padding-top: 3.5%;
+   padding-bottom: 3%;
+   width:67%;
+   
+   margin-left:0%;
+}
+.adress{
+
+   border-bottom: 1px solid rgba(230, 231, 232);  
+   padding-top: 5.5%;
+   padding-bottom: 2%;
+   width:67%;
+   
+   margin-left:0%;
+}
+.email{
+    border-bottom: 1px solid rgba(230, 231, 232);  
+   padding-top: 5.5%;
+   padding-bottom: 3.5%;
+   width:67%;
+   
+   margin-left:0%;
+}
+.email a{
+    color:rgba(0, 130, 150);
+
+}
+.adress a{
+    color:rgba(0, 130, 150);
+}
+.nummer a{
+color:rgba(0, 130, 150)
+}
+.färgtext a{
+    color:rgba(0, 130, 150)
+}
+.färgtext a:hover{
+    color:black;
+}
+.huvudikon{
+    margin-top:-2.5%;
+}
+.mailikon{
+    margin-top:-2.5%;
+}
+.adressikon{
+    margin-top:-2.5%;
+}
+.email a:hover{
+    color:rgb(54, 54, 54);
+    text-decoration:underline;
+}
+.nummer a:hover{
+    color:rgb(54, 54, 54);
+    text-decoration:underline;
+}
+.adress a:hover{
+    color:rgb(54, 54, 54);
+text-decoration:underline;
+}
+.papperikon{
+    scale:55%;
+}
+.pilikon{
+    scale:55%;
 }
