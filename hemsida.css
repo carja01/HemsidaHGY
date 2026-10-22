@@ -7,12 +7,14 @@ div{
 }
 
 div.searchbar{
-    padding:1.16%;
+
 }
 
 .searchbar{
     background-color: 
-rgba(229, 242, 244);
+rgba(229, 242, 244);position: relative;
+height:102px;
+
 }
 .yttreBox{
     padding-left:14%;
@@ -67,7 +69,7 @@ padding-top:6%;
     padding-right:8.5%;
     margin-top:9%;
     width:50%;
-    
+    height:relative;
 }
 li{
    border-bottom: 1px solid rgba(230, 231, 232);  
@@ -95,17 +97,16 @@ border-right: none;
    border-top: 2px solid rgba(147, 149, 152);
    border-bottom: 2px solid rgba(147, 149, 152);
    border-left:2px solid rgba(147, 149, 152);
+   height:52px;
 }
 
+
 .helasökbar{
-    margin-left:24.3%;
+    margin-top:1.2%;
+    margin-left:25%;
     padding:0.05%;
 }
-.helasökbar:hover{
-    border: 3px solid rgb(138, 70, 22);
-    margin-left:24.2%;
-    
-}
+
 
 .button{
    margin-left: 0.5%;
@@ -114,8 +115,10 @@ border-right: none;
    font-family: Arial, Helvetica, sans-serif;
    width:4.25%;
    font-size:18px;
-   
+   height:55px;
+   margin-top:1.3%;
    border:none;
+   position:relative;
 }
 .button:hover{
 background-color: rgb(12, 83, 94);
@@ -209,10 +212,10 @@ body{
 .kontaktruta{
     display: flex;
     flex-direction: column;
-    padding-left:14%;
+    padding-left:13.5%;
     background-color: rgb(245, 243, 243);
-    padding-right:19%;
-    padding-top:3%;
+    padding-right:20%;
+    padding-top:1%;
     padding-bottom:1.0%;
 }
 
@@ -295,4 +298,44 @@ text-decoration:underline;
 }
 .pilikon{
     scale:55%;
+}
+.vklassruta{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(245, 243, 243);
+}
+
+.vklassruta a{
+    color:rgba(0, 130, 150);
+    
+}
+.vklassruta a:hover{
+    text-decoration:underline;
+}
+.vklasstext{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding-top:0.6%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:-3%;
+    position:relative;
+}
+.vklasstext h3{
+    margin-bottom:0;
+}
+.vklassbild img{
+    width:52.8%;
+    margin-left:13.5%;
+    margin-top:2%;
+    height:650px;
+
+}
+
+.vklassbild img:hover{
+    scale:105%;
+    margin-left:14.75%;
+    transition: 0.5s;
 }
